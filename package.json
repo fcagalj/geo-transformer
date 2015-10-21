@@ -1,0 +1,26 @@
+{
+  "name": "geo-transformer",
+  "version": "1.0.0",
+  "description": "Enables conversion of coordinates from local polar system (azimuth and range from known geo location) to geographic coordinate system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "local",
+    "polar",
+    "system",
+    "radar",
+    "geo",
+    "coordinate",
+    "azimuth",
+    "range",
+    "lat",
+    "lon"
+  ],
+  "author": "fcagalj@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.3.3"
+  }
+}

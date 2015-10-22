@@ -1,5 +1,5 @@
 'use strict';
 
-var transformer = require('lib/transformer');
+var gt = require('./lib/transformer');
 
-module.exports = transformer;
+module.exports = gt;

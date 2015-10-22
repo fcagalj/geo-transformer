@@ -14,7 +14,7 @@ specification.
 
 NodeJS:
 
-`npm install -g geo-transformer`
+`npm install geo-transformer`
 
 Bower
 

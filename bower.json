@@ -1,11 +1,14 @@
 {
   "name": "geo-transformer",
-  "version": "0.8.0",
-  "description": "Transforming coordinates from local polar system like radar (azimuth and range) to geographic coordinate system.",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
+  "version": "0.8.0",
+  "authors": [
+    "fcagalj <fcagalj@gmail.com>"
+  ],
+  "description": "Transforming coordinates from local polar system like radar (azimuth and range) to geographic coordinate system.",
+  "moduleType": [
+    "node"
+  ],
   "keywords": [
     "local",
     "polar",
@@ -21,10 +24,12 @@
     "transform",
     "convert"
   ],
-  "author": "fcagalj@gmail.com",
   "license": "ISC",
-  "dependencies": {
-    "mocha": "^2.3.3",
-    "should": "^7.1.1"
-  }
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

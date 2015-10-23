@@ -1,7 +1,7 @@
 {
   "name": "geo-transformer",
   "main": "index.js",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "authors": [
     "fcagalj <fcagalj@gmail.com>"
   ],
@@ -31,5 +31,6 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "homepage": "https://github.com/fcagalj/geo-transformer"
 }

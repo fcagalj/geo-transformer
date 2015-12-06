@@ -22,7 +22,7 @@ Bower
 
 ## API
 
-###NodeJS - simple target
+### NodeJS - simple target
 
 ```javascript
 
@@ -36,24 +36,11 @@ var exampleRadar = {
     radarHeight: '6062'   //feet
 };
 
-var exampleTargets =
-    [
-        {
-            azimuth: '120',
-            range: '75',
-            altitude: '4200' //feet
-        },
-        {
-            azimuth: '170',
-            range: '175',
-            altitude: '600' //feet
-        },
-        {
-            azimuth: '111.95',
-            range: '72.164',
-            altitude: '4200' //feet
-        }
-    ];
+var target = {
+    azimuth: '111.95',
+    range: '72.164',
+    altitude: '4200'
+};
 
 var exampleRadarGt = gt(exampleRadar);
 
